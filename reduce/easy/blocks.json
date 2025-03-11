@@ -1,0 +1,53 @@
+{
+  "blocks": [
+    { 
+      "building": {
+        "floors": [
+          {
+            "occupancies": [
+              {
+                "typeHelper": {
+                  "type": {
+                    "name": "Residential"
+                  }
+                },
+                "builtUpArea": 43.575,
+                "floorArea": 43.575
+              }
+            ],
+            "number": 0
+          },
+          {
+            "occupancies": [
+              {
+                "typeHelper": {
+                  "type": {
+                    "name": "Residential"
+                  }
+                },
+                "builtUpArea": 43.575,
+                "floorArea": 43.575
+              }
+            ],
+            "number": 1
+          },
+          {
+            "occupancies": [
+              {
+                "typeHelper": {
+                  "type": {
+                    "name": "Residential"
+                  }
+                },
+                "builtUpArea": 43.575,
+                "floorArea": 43.575
+              }
+            ],
+            "number": 2
+          }
+        ]
+      },
+      "number": "1"
+    }
+  ]
+}
