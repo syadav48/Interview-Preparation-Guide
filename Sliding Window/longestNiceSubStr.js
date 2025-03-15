@@ -19,17 +19,20 @@ var longestNiceSubstring = function (s) {
     return true;
   };
   for (let i = 0; i < s.length; i++) {
-    while(!isNice(windowSum)){
+    console.log(windowSum);
+    
+    while(isNice(windowSum)){
        windowSum = windowSum.slice(start)
-       console.log(windowSum);
-       
+       console.log(windowSum, "isss");
         start++
     }
     maxLength = Math.max(maxLength, i - start + 1)
     windowSum += s[i]
+    windowSum = windowSum.slice(start)
+    console.log(windowSum, "isssttt");
+     start++
   }
   return maxLength
-
 };
 
 console.log(longestNiceSubstring("YazaAay"));
