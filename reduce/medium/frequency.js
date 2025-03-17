@@ -8,4 +8,4 @@ const res = arr.reduce((a, c) => {
     return a
 }, {})
 const result = arr.reduce(((a, c) => (a[c] ? a[c]++ : a[c] = 1, a)), {})
-console.log(result);
+console.log(res);
