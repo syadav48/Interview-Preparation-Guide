@@ -16,6 +16,7 @@ The `this` keyword in JavaScript can be confusing because its value depends on t
 
 ## 4. Arrow Functions
 - Arrow functions **do not have their own `this`**. Instead, they inherit `this` from the enclosing lexical context.
+So basically inheritence occurs in arrow function not in regular function
 
 ## 5. DOM Events
 - In **event handlers**, `this` refers to the element that triggered the event.

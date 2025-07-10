@@ -45,3 +45,7 @@ button.onclick = function() {
     console.log(this); // Logs the button element
 };
 document.body.appendChild(button);
+
+
+// Detached Method: 
+
